@@ -4,7 +4,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
 # --- SETTINGS ---
-TOKEN = '8690581126:AAEUk419U756Q6iqnWL5jgCiRiMdSxHcPf0'
+TOKEN = os.getenv("BOT_TOKEN", "")
 CHANNEL_ID = "@RynoxCheats"
 BOT_USERNAME = "RynoxSensi_bot" 
 BOT_URL = f"https://t.me/{BOT_USERNAME}"
